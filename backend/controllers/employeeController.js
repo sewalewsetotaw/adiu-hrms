@@ -58,7 +58,6 @@ const deleteEmployee = async (req, res) => {
   res.json({ message: "Deleted" });
 };
 
-// IMPORTANT EXPORT
 module.exports = {
   healthCheck,
   getEmployees,
